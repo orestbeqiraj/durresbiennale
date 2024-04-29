@@ -121,10 +121,18 @@ button{
     cursor: pointer;
 }
 
-.bi{
+.bi-search{
     width: 25px;
     color: #fff;
     font-size: 22px;
+}
+
+#search-btn:hover{
+    color: white;
+}
+
+.bi:hover{
+    color: #0080ff;
 }
 
 ::placeholder{
@@ -722,11 +730,11 @@ section p{
     max-width: 80%;
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    transform: translate(10%, -30%);
+    transform: translate(13%, -23%);
 }
 
 .media{
@@ -788,13 +796,13 @@ section p{
 
 .institutional .sponsor img{
     margin-top: 20%;
-    max-width: 100%;
+    max-width: 60%;
     align-items: center;
     filter: brightness(0) invert(1);
 }
 
 #first-nth{
-    width: 70%;
+    width: 35%;
 }
 
 #first2-nth{
@@ -1154,8 +1162,8 @@ footer i{
         
         .institutional{
             grid-template-columns: repeat(2, 1fr);
-            width: 50%;
-            transform: translate(50%, -10%);
+            width: 60%;
+            transform: translate(34%, -10%);
         }
 
         .media{
@@ -1210,6 +1218,16 @@ footer i{
     }
 
     @media (width < 500px){
+
+        #lang{
+            margin-top: 6px;
+        }
+
+        .nav-mobile h2{
+            margin: 0;
+            margin-left: 60px;
+        }
+
         .search-box{
             width: 90%;
         }
@@ -1243,21 +1261,33 @@ footer i{
             margin-top: 120px;
             width: 50%;
             grid-template-columns: repeat(1, 1fr);
-            transform: translate(50%, -15%);
+            transform: translate(50%, -10%);
         }
 
         .media{
             grid-template-columns: repeat(1, 1fr);
-            transform: translate(12%, -15%);
+            width: 50%;
+            transform: translate(50%, -15%);
         }
 
         .seperate{
             grid-template-columns: repeat(1, 1fr);
-            transform: translate(12%, -30%);
+            width: 50%;
+            transform: translate(50%, -30%);
         }
     }
 
     @media (width < 450px){
+        .hamburger,
+        .hamburger-other{
+            margin-top: 6px;
+        }
+
+        #lang2,
+        #lang{
+            font-size: 14px;
+            margin-top: 0;
+        }
 
         .container,
         .heading{
