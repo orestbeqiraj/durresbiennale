@@ -131,10 +131,6 @@ button{
     color: white;
 }
 
-.bi:hover{
-    color: #0080ff;
-}
-
 ::placeholder{
     color: white;
 }
@@ -163,6 +159,13 @@ button{
     background: #0080ff;
 }
 
+#clear{
+    color: white;
+}
+
+#clear:hover{
+    color: white;
+}
 /* Search Ends */
 
 /* SHARE BUTTON */
