@@ -41,3 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+const video = document.querySelector('.back-video');
+
+video.addEventListener('ended', function() {
+  video.play();
+});

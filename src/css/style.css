@@ -748,17 +748,6 @@ section p{
     transform: translate(15%, -30%);
 }
 
-.seperate{
-    max-width: 80%;
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    transform: translate(16%, -100%);
-}
-
 .media .sponsor,
 .seperate .sponsor,
 .institutional .sponsor,
