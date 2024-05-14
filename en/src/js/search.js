@@ -59,7 +59,7 @@ inputBox.onkeyup = function () {
 
 function display(result) {
     if (result.length === 0) {
-        resultBox.innerHTML = '<li class="no-results-message">There is no result</li>';
+        resultBox.innerHTML = '<li class="no-results-message">Nuk ka rezultat</li>';
         return;
     }
 

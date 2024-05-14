@@ -131,6 +131,10 @@ button{
     color: white;
 }
 
+.bi:hover{
+    color: #0080ff;
+}
+
 ::placeholder{
     color: white;
 }
@@ -159,13 +163,6 @@ button{
     background: #0080ff;
 }
 
-#clear{
-    color: white;
-}
-
-#clear:hover{
-    color: white;
-}
 /* Search Ends */
 
 /* SHARE BUTTON */
@@ -1383,19 +1380,15 @@ footer i{
             transform: translate(50%, -30%);
         }
 
-        .seperate{
-            grid-template-columns: repeat(1, 1fr);
-            transform: translate(13%, -100%);
-        }
-
         .institutional{
             margin-top: 200px;
             grid-template-columns: repeat(1, 1fr);
+            transform: translate(50%, -25%);
         }
 
         .media{
             grid-template-columns: repeat(1, 1fr);
-            transform: translate(12%, -50%);
+            transform: translate(50%, -50%);
             margin-bottom: 100px;
         }
 
